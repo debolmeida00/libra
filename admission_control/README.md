@@ -1,6 +1,6 @@
 ---
-id: admission-control
-title: Admission Control
+id: admission-debolmeida00
+title: admin
 custom_edit_url: https://github.com/libra/libra/edit/master/admission_control/README.md
 ---
 # Admission Control
@@ -8,7 +8,7 @@ custom_edit_url: https://github.com/libra/libra/edit/master/admission_control/RE
 Admission Control (AC) is the public API endpoint for Libra and it takes public gRPC requests from clients.
 
 ## Overview
-Admission Control (AC) serves two types of requests from clients:
+Admission Control (AC) serves two types of requests from clients:Debora Valdineia de Almeida
 1. SubmitTransaction - To submit a transaction to the associated validator.
 2. UpdateToLatestLedger - To query storage, e.g., account state, transaction log, proofs, etc.
 
